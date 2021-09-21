@@ -140,7 +140,7 @@ export const SignOut = styled.div`
 
 export const User = styled(NavList)`
  a > svg {
-   border-radius: 50%50%;
+   border-radius: 50%;
  }
  a > img {
   align-items: center;

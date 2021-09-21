@@ -1,0 +1,70 @@
+.feed__container_Input{
+    display: flex;
+    flex-direction: column;
+    padding:8px 16px;
+    background: white;
+    border-radius: 10px;
+}
+.feed__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 16px;
+    margin: 4px 0;
+}
+.feed__icons_input{
+    fill: gray !important;
+    width: 24px !important;
+    height: 24px !important;
+}
+.feed__input > form {
+ width: 100%;
+ display: flex;
+}
+.feed__input > form > input{
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+    outline: 0;
+    flex: 1;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+}
+.feed__input > form > button {
+    opacity: 0;
+    cursor: pointer;
+}
+.fee__input_icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+/* IconsInputs css */
+.icon__input{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding:10px 10px;
+}
+.icon__input > h3 {
+    font-size:14px;
+    color:rgba(0, 0, 0, 0.6);
+    margin-left:5px;
+    font-weight: 500;
+}
+.icon__input:hover{
+    background-color:rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.like__actions_icons{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 40px;
+    padding: 4px 8px;
+    
+}

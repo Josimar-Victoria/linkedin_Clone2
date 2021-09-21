@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
-  overflow-y: hidden;
 }
 :root, body, html {
   background-color: #f5f5f5;
@@ -35,6 +34,7 @@ ul{
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  list-style: none;
 }
 
 body{
